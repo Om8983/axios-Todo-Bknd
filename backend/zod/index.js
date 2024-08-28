@@ -1,7 +1,7 @@
 const { z } = require('zod')
 
 const todoSchema = z.object({
-    id : z.string(),
+    id : z.number(),
     title : z.string(),
     description : z.string() 
 })
